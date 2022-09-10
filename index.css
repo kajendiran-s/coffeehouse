@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(https://wallpaperaccess.com/full/41607.jpg) center;
+    height: auto;
+    width: 100%;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    
+   
+}
+.left-container
+{
+    flex:1;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.right-container
+{
+    flex:1;
+    background-color: beige;
+    color: black;
+    border-radius: 15px 0 0 15px ; 
+    background-size: inherit;
+    height: 535px;
+    padding: 10px 15px 15px 15px;
+    overflow:scroll;
+    margin:30px 50px 30px 50px;
+    
+
+}
+.btn {
+    cursor: pointer;
+
+
+}
+
+#heading {
+    font-size: 50px;
+    margin: 2px;
+
+}
+
+.prod p,
+.add p {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.prod,
+.add {
+    padding-left: 8px;
+}
+#submit
+{
+    cursor: pointer;
+    margin-top: 30px;
+    width: 100px;
+    padding: 10px 5px;
+    font-size: 20px;
+    background-color: rgb(207, 201, 201);
+    border: none;
+    border-radius: 5px;
+}
+#submit:active
+{
+    transform: translateY(4px);
+}
+
+@media (max-width:750px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: url(https://wallpaperaccess.com/full/41607.jpg) cover;
+        height: auto;
+        width: auto;
+        background-attachment: fixed;
+        color: aliceblue;
+        overflow: scroll;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: url(https://wallpaperaccess.com/full/41607.jpg) center;
+        height: auto;
+        width: 100%;
+        background-attachment: fixed;
+        color: aliceblue;
+        overflow: scroll;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 100px;
+        padding-left: 80px;
+    }
+
+    #heading {
+        line-height: 50px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: url(https://wallpaperaccess.com/full/41607.jpg) cover;
+        height: auto;
+        width: 100%;
+        background-attachment: fixed;
+        color: aliceblue;
+        overflow: scroll;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+    @media (max-height: 350px) 
+    {
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: url(https://wallpaperaccess.com/full/41607.jpg)  no-repeat cover/center;
+            background-size:450px,100vw; 
+            height: 100%;
+            width: 100%;
+            background-attachment: fixed;
+            overflow: scroll;
+        }
+          
+        .container {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding-top: 50px;
+            padding-left: 50px;
+        }
+    }
+}

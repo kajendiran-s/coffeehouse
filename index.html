@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<htmllang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js" defer></script>
+        <title>COFEE</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="left-container" id="left">
+                <h1 id="heading">ORDER YOUR NEEDS</h1>
+                <div class="prod">
+                    <form name="prodform">
+                        <p>Select the product you want:</p>
+                        <input class="btn" type="radio" name="prodname" autocomplete="off"id="esp" value="Espresso">
+                        <label for="esp">Espresso</label><br>
+                        <input class="btn" type="radio" name="prodname" autocomplete="off"id="cap" value="Cappuccino">
+                        <label for="cap">Cappuccino</label><br>
+                        <input class="btn" type="radio" name="prodname" autocomplete="off"id="latte" value="Latte">
+                        <label for="latte">Latte</label>
+                    </form>
+                </div>
+                <div class="add">
+                    <form name="addons">
+                        <p>Select the add-on you want:</p>
+                        <input class="btn" type="checkbox" name="addon" autocomplete="off"id="mil" value="Milk">
+                        <label for="mil">Milk</label><br>
+                        <input class="btn" type="checkbox" name="addon" autocomplete="off"id="cre" value="Cream">
+                        <label for="cre">Cream</label><br>
+                        <input class="btn" type="checkbox" name="addon" autocomplete="off"id="latte1" value="Latte">
+                        <label for="latte1">Latte</label>
+                    </form>
+                    <button type="submit" id="submit">Order</button>
+                </div>
+            </div> 
+            <div class="right"id="right">  
+                <h1 id="h1"></h1> 
+            </div> 
+        </div>
+ 
+    </body>
+
+    </html>
