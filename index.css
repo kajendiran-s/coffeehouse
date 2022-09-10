@@ -14,28 +14,31 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     flex-basis: auto;
-    
-   
+
+
 }
-.left-container
-{
-    flex:1;
+
+.left-container {
+    flex: 1;
     padding-top: 100px;
     padding-left: 100px;
 }
-.right-container
-{
-    flex:1;
+
+.right-container {
+    flex: 1;
     background-color: beige;
     color: black;
-    border-radius: 15px 0 0 15px ; 
+    border-radius: 15px 0 0 15px;
     background-size: inherit;
     height: 535px;
-    padding: 10px 15px 15px 15px;
-    overflow:scroll;
-    margin:30px 50px 30px 50px;
-    
+    padding: 15px 15px 15px 15px;
+    overflow: scroll;
+    margin: 30px 50px 30px 50px;
+    line-height: 1.5;
+}
 
+#h1 {
+    padding-left: 10px;
 }
 .btn {
     cursor: pointer;
@@ -59,8 +62,8 @@ body {
 .add {
     padding-left: 8px;
 }
-#submit
-{
+
+#submit {
     cursor: pointer;
     margin-top: 30px;
     width: 100px;
@@ -70,8 +73,8 @@ body {
     border: none;
     border-radius: 5px;
 }
-#submit:active
-{
+
+#submit:active {
     transform: translateY(4px);
 }
 
@@ -86,12 +89,31 @@ body {
         overflow: scroll;
     }
 
+    .left-container {
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+
+    .right-container {
+        flex: 1;
+        background-color: beige;
+        color: black;
+        border-radius: 15px 0 0 15px;
+        background-size: inherit;
+        max-height:235px;
+        padding: 15px 15px 15px 15px;
+        overflow: scroll;
+        margin: 30px 50px 30px 50px;
+        line-height: 1;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        padding-top: 100px;
-        padding-left: 100px;
+        padding-top: 10px;
+        padding-left: 10px;
+        line-height: 20px;
     }
 }
 
@@ -110,9 +132,27 @@ body {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        padding-top: 100px;
-        padding-left: 80px;
+        padding-top: 10px;
+        padding-left: 20px;
     }
+
+    .right-container {
+        flex: 1;
+        background-color: beige;
+        color: black;
+        border-radius: 15px 0 0 15px;
+        background-size: inherit;
+        max-height: 200px;
+        padding: 15px 15px 15px 15px;
+        overflow: scroll;
+        margin: 30px 50px 30px 50px;
+        line-height: 1;
+    }
+
+    .left-container {
+        padding-top: 20px;
+    }
+
 
     #heading {
         line-height: 50px;
@@ -120,7 +160,7 @@ body {
 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 460px) {
     body {
         font-family: 'Poppins', sans-serif;
         background: url(https://wallpaperaccess.com/full/41607.jpg) cover;
@@ -135,27 +175,103 @@ body {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        padding-top: 100px;
-        padding-left: 50px;
+        padding-top: 10px;
+        padding-left: 10px;
+        overflow: hidden;
     }
-    @media (max-height: 350px) 
-    {
-        body {
-            font-family: 'Poppins', sans-serif;
-            background: url(https://wallpaperaccess.com/full/41607.jpg)  no-repeat cover/center;
-            background-size:450px,100vw; 
-            height: 100%;
-            width: 100%;
-            background-attachment: fixed;
-            overflow: scroll;
-        }
-          
-        .container {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            padding-top: 50px;
-            padding-left: 50px;
-        }
+
+    .right-container {
+        flex: 1;
+        background-color: beige;
+        color: black;
+        border-radius: 15px 0 0 15px;
+        /* background-size: inherit; */
+        max-height: 200px;
+        padding: 15px 15px 15px 15px;
+        overflow: scroll;
+        margin: 30px 50px 30px 50px;
+        line-height: 1;
+    }
+
+    .left-container {
+        padding-left: 20px;
+    }
+
+    #h1 {
+        padding-left: 20px;
+    }
+
+}
+
+@media (max-height: 350px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: url(https://wallpaperaccess.com/full/41607.jpg) no-repeat cover/center;
+        background-size: 450px, 100vw;
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+        overflow: scroll;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+
+    .right-container {
+        flex: 1;
+        background-color: beige;
+        color: black;
+        border-radius: 15px 0 0 15px;
+        background-size: inherit;
+        height: 100px;
+        padding: 15px 15px 15px 15px;
+        overflow: scroll;
+        margin: 30px 50px 30px 50px;
+        line-height: 1;
+    }
+
+    .left-container {
+        padding-left: 20px;
+    }
+}
+@media (max-height: 250px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: url(https://wallpaperaccess.com/full/41607.jpg) no-repeat cover/center;
+        background-size: 450px, 100vw;
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+        overflow: scroll;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+
+    .right-container {
+        flex: 1;
+        background-color: beige;
+        color: black;
+        border-radius: 15px 0 0 15px;
+        background-size: inherit;
+        height: 100px;
+        padding: 15px 15px 15px 15px;
+        overflow: scroll;
+        margin: 30px 50px 30px 50px;
+        line-height: 1;
+    }
+
+    .left-container {
+        padding-left: 20px;
     }
 }
