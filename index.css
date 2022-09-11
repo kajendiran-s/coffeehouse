@@ -115,7 +115,7 @@ body {
         max-height:auto;
         padding: 15px 15px 15px 30px;
         overflow: scroll;
-        margin: 30px 30px;
+        margin: 30px 30px 30px 20px;
         
     }
 
@@ -126,7 +126,7 @@ body {
         /* padding-top: 10px; */
         padding-left: 0px;
         overflow:hidden;
-        /* line-height: 1; */
+        line-height: 1;
         width:100vw;
         height: 100vh;
     }
