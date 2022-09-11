@@ -90,13 +90,12 @@ body {
     body {
         font-family: 'Poppins', sans-serif;
         background: url(https://wallpaperaccess.com/full/3559962.jpg) center;
-        height: 100vh;
+        height:auto;
         width: 100vw;
         margin: 0%;
         background-attachment: fixed;
         color: aliceblue;
-        overflow-x: auto;
-        overflow-y: hidden;
+        overflow: auto;
     }
     #submit{margin-top:20px}
 
@@ -114,7 +113,7 @@ body {
         max-width:auto;
         max-height:auto;
         padding: 15px 15px 15px 30px;
-        overflow: scroll;line-height: 1;
+        overflow: scroll;line-height: 1.5;
         margin: 30px 30px 30px 20px;
         
     }
@@ -124,8 +123,8 @@ body {
         flex-direction: column;
         flex-wrap: wrap;
         /* padding-top: 10px; */
-        padding-left: 0px;
-        overflow:hidden;
+        /* padding-left: 0px; */
+        /* overflow:hidden; */
         line-height: 1.5;
         width:100vw;
         height: 100vh;
