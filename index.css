@@ -119,7 +119,7 @@ body {
     }
 
     .container {
-        /* display: flex;flex-basis: auto; */
+        display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         /* padding-top: 10px; */
