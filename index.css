@@ -80,7 +80,8 @@ body {
     transform: translateY(4px);
 }
 
-@media (max-width:750px) {
+@media (max-width:750px), (max-height:1200px){
+    html{overflow: hidden;}
     body {
         font-family: 'Poppins', sans-serif;
         background: url(https://wallpaperaccess.com/full/3559962.jpg);
@@ -135,7 +136,8 @@ body {
         width: 100%;
         background-attachment: fixed;
         color: aliceblue;
-        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .container {
@@ -178,7 +180,8 @@ body {
         width: 100%;
         background-attachment: fixed;
         color: aliceblue;
-        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .container {
@@ -221,7 +224,8 @@ body {
         height: 100%;
         width: 100%;
         background-attachment: fixed;
-        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .container {
@@ -257,7 +261,8 @@ body {
         height: 100%;
         width: 100%;
         background-attachment: fixed;
-        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .container {
