@@ -81,7 +81,7 @@ body {
 }
 
 @media (max-width:750px){
-    html{overflow: hidden;}
+    /* html{overflow: hidden;} */
     body {
         font-family: 'Poppins', sans-serif;
         background: url(https://wallpaperaccess.com/full/3559962.jpg);
