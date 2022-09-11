@@ -106,12 +106,13 @@ body {
     } 
 
     .right-container {
-        flex: 2.5;
+        flex: 1;
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
         max-width:auto;
-        max-width:40vh;        padding: 15px 15px 15px 30px;
+        max-width:30vh;  
+        padding: 15px 15px 15px 30px;
         overflow: scroll;line-height: 1.5;
         margin: 30px 30px 30px 20px;
         
@@ -123,10 +124,10 @@ body {
         flex-wrap: wrap;
         /* padding-top: 10px; */
         /* padding-left: 0px; */
-        /* overflow:scroll; */
+        overflow:scroll; 
         line-height: 1.5;
         width:100vw; 
-         height: 100vh; 
+         max-height: 100vh; 
     }
 }
 
