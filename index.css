@@ -111,8 +111,7 @@ body {
         color: black;
         border-radius: 15px 0 0 15px;
         max-width:auto;
-        max-width:30vh;  
-        padding: 15px 15px 15px 30px;
+        max-height:40vh;        padding: 15px 15px 15px 30px;
         overflow: scroll;line-height: 1.5;
         margin: 30px 30px 30px 20px;
         
@@ -124,10 +123,10 @@ body {
         flex-wrap: wrap;
         /* padding-top: 10px; */
         /* padding-left: 0px; */
-        overflow:scroll; 
+        /* overflow:scroll; */
         line-height: 1.5;
         width:100vw; 
-         max-height: 100vh; 
+         height: 100vh; 
     }
 }
 
@@ -152,12 +151,12 @@ body {
     }
 
     .right-container {
-        /* flex:1; */
+        flex:1;
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
         max-width:auto;
-        max-height:auto;
+        max-height:40vh;
         padding: 15px 15px 15px 30px;
         overflow: scroll;
         margin: 30px 30px;
@@ -197,12 +196,12 @@ body {
     }
 
     .right-container {
-        /* flex:1; */
+        flex:1;
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
         max-width:auto;
-        max-height:auto;
+        max-height:40vh;
         padding: 15px 15px 15px 30px;
         overflow: scroll;
         margin: 30px 30px;
@@ -240,12 +239,12 @@ body {
     }
 
     .right-container {
-        /* flex:1; */
+        flex:1;
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
         max-width:auto;
-        max-height:auto;
+        max-height:40vh;
         padding: 15px 15px 15px 30px;
         overflow: scroll;
         margin: 30px 30px;
@@ -277,12 +276,12 @@ body {
     }
 
     .right-container {
-        /* flex:1; */
+        flex:1;
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
         max-width:auto;
-        max-height:auto;
+        max-height:40vh;
         padding: 15px 15px 15px 30px;
         overflow: scroll;
         margin: 30px 30px;
