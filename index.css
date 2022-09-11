@@ -82,29 +82,31 @@ body {
 @media (max-width:750px) {
     body {
         font-family: 'Poppins', sans-serif;
-        background: url(https://wallpaperaccess.com/full/41607.jpg) cover;
+        background: url(https://wallpaperaccess.com/full/3559962.jpg) center;
         height: auto;
-        width: auto;
+        width: 100%;
         background-attachment: fixed;
         color: aliceblue;
-        overflow: scroll;
+        overflow: hidden;
     }
+    #submit{margin-top:20px}
 
     .left-container {
+        flex: 1;
         padding-left: 20px;
-        padding-top: 30px;
-    }
+        padding-top: 20px;
+    } 
 
     .right-container {
         flex: 1;
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
-        background-size: inherit;
-        max-height:235px;
-        padding: 15px 15px 15px 15px;
+        max-width:auto;
+        max-height:  30vh;
+        padding: 15px;
         overflow: scroll;
-        margin: 30px 50px 30px 50px;
+        margin: 30px 50px;
         line-height: 1;
     }
 
@@ -113,15 +115,17 @@ body {
         flex-direction: column;
         flex-wrap: wrap;
         padding-top: 10px;
-        padding-left: 10px;
+        padding-left: 0px;
+        /* overflow:hidden; */
         line-height: 20px;
+        width:100%;
     }
 }
 
 @media (max-width: 650px) {
     body {
         font-family: 'Poppins', sans-serif;
-        background: url(https://wallpaperaccess.com/full/41607.jpg) center;
+        background:  url(https://wallpaperaccess.com/full/3559962.jpg) center;
         height: auto;
         width: 100%;
         background-attachment: fixed;
@@ -142,11 +146,11 @@ body {
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
-        background-size: inherit;
-        max-height: 200px;
-        padding: 15px 15px 15px 15px;
+        max-width:auto;
+        max-height:  30vh;
+        padding: 15px;
         overflow: scroll;
-        margin: 30px 50px 30px 50px;
+        margin: 30px 50px;
         line-height: 1;
     }
 
@@ -161,10 +165,10 @@ body {
 
 }
 
-@media (max-width: 460px) {
+@media (max-width: 450px) {
     body {
         font-family: 'Poppins', sans-serif;
-        background: url(https://wallpaperaccess.com/full/41607.jpg) cover;
+        background:  url(https://wallpaperaccess.com/full/3559962.jpg) cover;
         height: auto;
         width: 100%;
         background-attachment: fixed;
@@ -186,11 +190,11 @@ body {
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
-        /* background-size: inherit; */
-        max-height: 200px;
-        padding: 15px 15px 15px 15px;
+        max-width:auto;
+        max-height:  30vh;
+        padding: 15px;
         overflow: scroll;
-        margin: 30px 50px 30px 50px;
+        margin: 30px 50px;
         line-height: 1;
     }
 
@@ -207,7 +211,7 @@ body {
 @media (max-height: 350px) {
     body {
         font-family: 'Poppins', sans-serif;
-        background: url(https://wallpaperaccess.com/full/41607.jpg) no-repeat cover/center;
+        background:  url(https://wallpaperaccess.com/full/3559962.jpg) no-repeat cover/center;
         background-size: 450px, 100vw;
         height: 100%;
         width: 100%;
@@ -228,11 +232,11 @@ body {
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
-        background-size: inherit;
-        height: 100px;
-        padding: 15px 15px 15px 15px;
+        max-width:auto;
+        max-height:  30vh;
+        padding: 15px;
         overflow: scroll;
-        margin: 30px 50px 30px 50px;
+        margin: 30px 50px;
         line-height: 1;
     }
 
@@ -243,7 +247,7 @@ body {
 @media (max-height: 250px) {
     body {
         font-family: 'Poppins', sans-serif;
-        background: url(https://wallpaperaccess.com/full/41607.jpg) no-repeat cover/center;
+        background:  url(https://wallpaperaccess.com/full/3559962.jpg) no-repeat cover/center;
         background-size: 450px, 100vw;
         height: 100%;
         width: 100%;
@@ -264,11 +268,11 @@ body {
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
-        background-size: inherit;
-        height: 100px;
-        padding: 15px 15px 15px 15px;
+        max-width:auto;
+        max-height:  30vh;
+        padding: 15px;
         overflow: scroll;
-        margin: 30px 50px 30px 50px;
+        margin: 30px 50px;
         line-height: 1;
     }
 
