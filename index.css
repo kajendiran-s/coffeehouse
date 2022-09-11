@@ -37,10 +37,10 @@ body {
     border-radius: 15px 0 0 15px;
     background-size: inherit;
     height: 535px;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 30px;
     overflow: scroll;
     margin: 30px 50px 30px 50px;
-    line-height: 1.5;
+    line-height: 2;
     box-shadow: 1px 2px 10px 1px,1px 10px 15px 2px
 }
 
@@ -101,13 +101,13 @@ body {
     #submit{margin-top:20px}
 
     .left-container {
-        flex: 1;
+        /* flex: 1; */
         padding-left: 40px;
         padding-top: 20px;
     } 
 
     .right-container {
-        flex: 2;
+        /* flex:1; */
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
@@ -153,16 +153,16 @@ body {
     }
 
     .right-container {
-        flex: 1;
+        /* flex:1; */
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
         max-width:auto;
-        max-height:  30vh;
-        padding: 15px;
+        max-height:auto;
+        padding: 15px 15px 15px 30px;
         overflow: scroll;
-        margin: 30px 50px;
-        line-height: 1;
+        margin: 30px 30px;
+        
     }
 
     .left-container {
@@ -198,16 +198,16 @@ body {
     }
 
     .right-container {
-        flex: 1;
+        /* flex:1; */
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
         max-width:auto;
-        max-height:  30vh;
-        padding: 15px;
+        max-height:auto;
+        padding: 15px 15px 15px 30px;
         overflow: scroll;
-        margin: 30px 50px;
-        line-height: 1;
+        margin: 30px 30px;
+        
     }
 
     .left-container {
@@ -241,16 +241,16 @@ body {
     }
 
     .right-container {
-        flex: 1;
+        /* flex:1; */
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
         max-width:auto;
-        max-height:  30vh;
-        padding: 15px;
+        max-height:auto;
+        padding: 15px 15px 15px 30px;
         overflow: scroll;
-        margin: 30px 50px;
-        line-height: 1;
+        margin: 30px 30px;
+        
     }
 
     .left-container {
@@ -278,16 +278,16 @@ body {
     }
 
     .right-container {
-        flex: 1;
+        /* flex:1; */
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
         max-width:auto;
-        max-height:  30vh;
-        padding: 15px;
+        max-height:auto;
+        padding: 15px 15px 15px 30px;
         overflow: scroll;
-        margin: 30px 50px;
-        line-height: 1;
+        margin: 30px 30px;
+        
     }
 
     .left-container {
