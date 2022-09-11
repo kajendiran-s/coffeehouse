@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
-html{height: 100vh;}
+/* html{height: 100vh;} */
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -90,28 +90,28 @@ body {
     body {
         font-family: 'Poppins', sans-serif;
         background: url(https://wallpaperaccess.com/full/3559962.jpg) center;
-        height:auto;
+        height:100vh;
         width: 100vw;
         margin: 0%;
         background-attachment: fixed;
         color: aliceblue;
-        overflow: auto;
+        /* overflow:scroll; */
     }
     #submit{margin-top:20px}
 
     .left-container {
         flex: 1;
         padding-left: 40px;
-        padding-top: 20px;
+        padding-top: 40px;
     } 
 
     .right-container {
-        flex: 0.5;
+        flex: 2.5;
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
         max-width:auto;
-        max-height:auto;
+        max-height:50vh;;
         padding: 15px 15px 15px 30px;
         overflow: scroll;line-height: 1.5;
         margin: 30px 30px 30px 20px;
@@ -119,15 +119,15 @@ body {
     }
 
     .container {
-        display: flex;
+        /* display: flex;flex-basis: auto; */
         flex-direction: column;
         flex-wrap: wrap;
         /* padding-top: 10px; */
         /* padding-left: 0px; */
-        /* overflow:hidden; */
+        /* overflow:scroll; */
         line-height: 1.5;
-        width:100vw;
-        /* height: 100vh; */
+        width:100vw; 
+         height: 100vh; 
     }
 }
 
