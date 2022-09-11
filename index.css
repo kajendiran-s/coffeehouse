@@ -95,26 +95,26 @@ body {
         margin: 0%;
         background-attachment: fixed;
         color: aliceblue;
-        /* overflow-x: hidden;
-        overflow-y: hidden; */
+        overflow-x: auto;
+        overflow-y: hidden;
     }
     #submit{margin-top:20px}
 
     .left-container {
-        /* flex: 1; */
+        flex: 1;
         padding-left: 40px;
         padding-top: 20px;
     } 
 
     .right-container {
-        /* flex:1; */
+        flex: 0.5;
         background-color: beige;
         color: black;
         border-radius: 15px 0 0 15px;
         max-width:auto;
         max-height:auto;
         padding: 15px 15px 15px 30px;
-        overflow: scroll;
+        overflow: scroll;line-height: 1;
         margin: 30px 30px 30px 20px;
         
     }
@@ -126,7 +126,7 @@ body {
         /* padding-top: 10px; */
         padding-left: 0px;
         overflow:hidden;
-        line-height: 1;
+        line-height: 1.5;
         width:100vw;
         height: 100vh;
     }
