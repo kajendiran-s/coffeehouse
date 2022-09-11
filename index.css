@@ -80,7 +80,7 @@ body {
     transform: translateY(4px);
 }
 
-@media (max-width:750px), (max-height:1200px){
+@media (max-width:750px){
     html{overflow: hidden;}
     body {
         font-family: 'Poppins', sans-serif;
