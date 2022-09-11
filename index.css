@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
-/* html{height: 100vh;} */
+html{height: 100vh;}
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -95,8 +95,8 @@ body {
         margin: 0%;
         background-attachment: fixed;
         color: aliceblue;
-        overflow-x: hidden;
-        overflow-y: hidden;
+        /* overflow-x: hidden;
+        overflow-y: hidden; */
     }
     #submit{margin-top:20px}
 
